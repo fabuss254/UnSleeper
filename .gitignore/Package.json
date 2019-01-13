@@ -1,0 +1,15 @@
+{
+  "name": "ElixBot",
+  "version": "1.0.0",
+  "description": "ElixionBot",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fabuss254",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.85.0",
+    "axios": "0.18.0"
+  }
+}
