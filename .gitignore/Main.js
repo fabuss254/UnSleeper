@@ -4,7 +4,7 @@ const app = express();
 const ax = require("axios");
 
 app.get('/', function(request, response) {
-  response.send('OK');
+  response.Send('OK');
 });
 
 const listener = app.listen(process.env.PORT || 3333, function() {
@@ -14,6 +14,7 @@ const listener = app.listen(process.env.PORT || 3333, function() {
 var Arr = ["http://dc-slf.glitch.me/","https://productive-violin.glitch.me/"]
 
 setInterval(function(){
+  console.log("op");
   for(var i=1; Arr.length < i; i++){
     setTimeout(function(){
       console.log("Requesting "+Arr[i]);
