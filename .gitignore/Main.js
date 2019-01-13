@@ -14,7 +14,7 @@ const listener = app.listen(process.env.PORT || 3333, function() {
 var Arr = ["http://dc-slf.glitch.me/","https://productive-violin.glitch.me/"]
 
 setInterval(function(){
-  for(var i=1; Arr.length < i; i++){
+  for(var i=0; Arr.length > i; i++){
     console.log(Arr[i]);
     setTimeout(function(){
       console.log("Requesting "+Arr[i]);
