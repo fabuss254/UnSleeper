@@ -22,4 +22,4 @@ setInterval(function(){
       ax(Arr[i]);
     //},(4000/Arr.length)*i);
   }
-}, 40000)
+}, 40000);
